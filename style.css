@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Navbar starts */
+
+nav#navbar {
+    display: flex;
+    background-color: #5465ff;
+    color: #e2fdff;
+    padding: 2em;
+}
+
+nav#navbar li {
+    list-style: none;
+    height: 4vh;
+    padding-top: .5em;
+    border-bottom: 2px solid;
+    font-size: 2.5vh;
+}
+
+nav#navbar a {
+    text-decoration: none;
+    color: #e2fdff;
+}
+
+/* Navbar end */
+
+/* Welcome - about section start */
+
+#welcome-section {
+    display: flex;
+    background-color: #788bff;
+    color: #e2fdff;
+    padding: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.hero {
+    border: 5px solid #e2fdff;
+    padding: 5em;
+}
+
+/* Welcome section ends in here */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #788bff;
+}
+
+#about h1 {
+    padding-bottom: 1em;
+}
+
+#about p {
+    text-align: center;
+}
+
+/* About section end */
+
+#project-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+.project {
+    font-size: 2.5vh;
+    background-color: #788bff;
+    width: 100%;
+    border-radius: 18px;
+    margin: .5em;
+}
+
+.p1 {
+    border: 5px solid #5465ff;
+    width: 80%;
+
+}
+
+.p2 {
+    border: 5px solid #5465ff;
+    width: 80%;
+
+}
+
+.p2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.p3 {
+    border: 5px solid #5465ff;
+    width: 80%;
+
+}
+
+.p4 {
+    border: 5px solid #5465ff;
+    width: 80%;
+
+}
+
+/* Projects section ends in here */
+
+/* start the profiles sectioon */
+
+.profile {
+    display: flex;
+    font-size: 2vh;
+    margin: 2vh;
+    justify-content: center;
+}
+
+.profiles {
+    padding: 1em;
+}
+
+/* Profiles section ends in here */
+
+/* Footer starts in here */
+
+.footer-credits {
+    display: flex;
+    font-size: 3vh;
+    background-color: #5465ff;
+    padding: 1em;
+    justify-content: space-between;
+    color: #e2fdff;
+}
+
+.footer-credits a {
+    text-decoration: none;
+    color: #e2fdff;
+}
+
+/* Footer ends in here */
+
+/* End of mobile desigm */
+
+/* Start bigger screens design */
+
+@media screen and (min-width: 780px) {
+    #navbar ul {
+        display: flex;
+    }
+
+    #navbar li {
+        justify-content: center;
+        padding: 1em;
+    }
+
+    #about {
+        display: flex;
+        justify-content: center;
+    }
+
+    #about h1 {
+        font-size: 4vh;
+    }
+
+    #about p {
+        width: 50%;
+        font-size: 2vh;
+    }
+
+    .profiles a:hover {
+        color: red;
+    }
+
+    #profile-link .fab:hover {
+        transform: scale(2.2);
+    }
+
+    #project-tile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p1 {
+        width: 25%;
+    }
+
+    p2 {
+        width: 25%;
+    }
+
+    p3 {
+        width: 25%;
+    }
+
+    p4 {
+        width: 25%;
+    }
+
+    .fc1:hover a {
+        color: red;
+        font-size: 3.2vh;
+    }
+
+    .fc2:hover a {
+        color: red;
+        font-size: 3.2vh;
+    }
+
+}
